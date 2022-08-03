@@ -1,0 +1,22 @@
+body{
+    background-color: blue;
+}
+table{
+    margin: auto;
+    box-shadow: 0 0 5px 5px;
+}
+td{
+    padding: 50px;
+    background-color: white;
+}
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even)  {
+    background-color: black;
+}
+td:hover{
+    background: red;
+
+}
+td:active{
+    background: green;
+}
